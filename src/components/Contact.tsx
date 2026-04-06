@@ -4,10 +4,6 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        <div className="flex items-center gap-3 mb-2">
-          <span className="w-[18px] h-0.5 bg-accent/60 rounded-full inline-block" />
-          <span className="font-mono text-[11px] text-accent/70 tracking-[0.18em] uppercase">Get In Touch</span>
-        </div>
         <h2 className="font-display font-extrabold text-[clamp(44px,5.5vw,68px)] text-text mb-14 leading-none">
           Contact<span className="text-accent">.</span>
         </h2>
@@ -19,7 +15,7 @@ export default function Contact() {
               together.
             </p>
             <p className="font-body font-light text-sm text-muted leading-relaxed">
-              Open to opportunities in power systems, communications, and embedded systems. Always happy to connect.
+            Open to opportunities across electrical engineering and multidisciplinary system design. Always happy to connect.
             </p>
           </div>
           <div className="border border-border rounded-xl overflow-hidden">

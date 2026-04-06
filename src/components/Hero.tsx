@@ -94,9 +94,7 @@ export default function Hero() {
         </h1>
 
         <p className="font-body font-light text-lg text-muted max-w-xl leading-relaxed mt-7 mb-10">
-          Building at the intersection of{' '}
-          <em className="not-italic text-accent/90">hardware and software</em>{' '}
-          — designing systems that bridge the physical and digital world.
+          Integrating communication, control, and power systems with embedded software to create real-world solutions.
         </p>
 
         <div className="flex flex-wrap items-center gap-4">

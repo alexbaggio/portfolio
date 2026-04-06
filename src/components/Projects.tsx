@@ -25,7 +25,7 @@ const projects = [
   },
   {
     number: '04',
-    title: 'AgriLift — Agricultural Drone Transport System',
+    title: 'AgriLift: Agricultural Drone Transport System',
     description: 'Co-designed an ergonomic, lightweight lifting and transport device enabling single-person handling of agricultural sprayer drones; resulted in a fully built and functional prototype by the department.',
     tech: ['Product Design', 'CAD', 'Prototyping', 'Mechanical Design'],
     image: '/projects/agrilift.png',
@@ -50,10 +50,6 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 border-b border-border">
       <div className="max-w-5xl mx-auto">
-        <div className="flex items-center gap-3 mb-2">
-          <span className="w-[18px] h-0.5 bg-accent/60 rounded-full inline-block" />
-          <span className="font-mono text-[11px] text-accent/70 tracking-[0.18em] uppercase">Selected Work</span>
-        </div>
         <h2 className="font-display font-extrabold text-[clamp(44px,5.5vw,68px)] text-text mb-14 leading-none">
           Projects<span className="text-accent">.</span>
         </h2>

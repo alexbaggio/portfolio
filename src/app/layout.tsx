@@ -10,14 +10,14 @@ const syne = Syne({
 
 const instrumentSans = Instrument_Sans({
   subsets: ['latin'],
-  weight: ['400', '500'],
+  weight: ['300', '400', '500'],
   style: ['normal', 'italic'],
   variable: '--font-body',
 })
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['300', '400'],
   variable: '--font-mono',
 })
 
